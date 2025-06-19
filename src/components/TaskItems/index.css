@@ -1,0 +1,51 @@
+.task-item-container{
+    list-style-type: none;
+    background-color: #97e2f0;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.task-item-buttons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.task-item-headers{
+    color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+}
+.task-item-title{
+    color: darkmagenta;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.task-item-details{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    max-height: 100px;
+    overflow-y: auto;
+}
+.task-btns{
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 15px;
+    width: 100px;
+}
+.delete-btn{
+    background-color: #e8101f;
+}
+.edit-btn{
+    background-color: #4a10e8;
+}

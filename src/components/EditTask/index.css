@@ -1,0 +1,75 @@
+.edit-task-container{
+    background-color: #8fc0f7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.edit-task-form-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+}
+.edit-task-header{
+    color: #04264d;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.edit-input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.edit-stat-date-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.edit-input-label{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+.edit-input-field{
+    width: 93%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+}
+.edit-description-field{
+    font-weight: 100;
+    height: 100px;
+}
+.edit-stat-field{
+    width: 65%;
+    padding: 8px;
+}
+.edit-date-field{
+    width: 50%;
+}
+.update-button-container{
+    display: flex;
+    justify-content: center;
+}
+.update-btn{
+    background-color: #4a10e8;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 15px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+}
