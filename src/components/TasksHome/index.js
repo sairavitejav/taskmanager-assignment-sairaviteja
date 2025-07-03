@@ -39,7 +39,7 @@ const TasksHome = () => {
 
   return (
     <div className="task-main-container">
-      <h1 className="main-header">TASK MANAGER</h1>
+      <h1 className="main-header">TASK MANAGING APPLICATION</h1>
       <div className="task-header-container">
         <p className="description">Add Your Daily Tasks Here</p>
         <button className="add-task-btn" onClick={addNewTask} type="button">
