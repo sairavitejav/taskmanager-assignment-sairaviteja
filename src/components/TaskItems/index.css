@@ -72,7 +72,7 @@
 
 @media screen and (max-width: 768px) {
   .task-item-container {
-    width: 90%;
+    width: 80%;
     min-height: auto;
   }
 
@@ -90,7 +90,7 @@
   }
 
   .task-btns {
-    width: 48%;
+    
     font-size: 14px;
     height: 40px;
   }
@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 480px) {
   .task-item-container {
-    width: 95%;
+    width: 80%;
     padding: 15px;
   }
 
