@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# 📋 Task Manager Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple full-stack Task Manager application built as a technical assignment for **Restomart**.  
+This application allows users to add, edit, delete, and view tasks — with a minimal clean interface and a RESTful backend API.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Project Overview
 
-### `npm start`
+**Company:** Restomart  
+**Role:** Technical Intern  
+**Candidate:** Sai Ravi Teja Vudathala
+**Project:** Task Manager (No Auth)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+### Backend
+- **Node.js**
+- **Express.js**
+- **UUID** (for unique task IDs)
+- **Sqlite3** (local database)
+- **fetch API** (for API calls)
+- **Deployed on Render**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- **React.js**
+- **React Hooks**
+- **Fetch API**
+- **Plain CSS**
+- **Deployed on Vercel**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎯 Features & Functionalities
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ Add New Task  
+✅ Edit Existing Task  
+✅ Delete Task  
+✅ View List of Tasks  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Repository Structure
+   Task Manager Restomart
+     backend
+     frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔌 API Endpoints (Backend)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Method | Endpoint     | Description              |
+|:--------|:---------------|:--------------------------|
+| GET    | `/tasks`       | List all tasks             |
+| POST   | `/tasks`       | Create a new task          |
+| PUT    | `/tasks/:id`   | Update a task by ID        |
+| DELETE | `/tasks/:id`   | Delete a task by ID        |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🖥️ Pages (Frontend)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Page         | URL Path       | Description                              |
+|:---------------|:----------------|:------------------------------------------|
+| Home          | `/`              | Displays all tasks                        |
+| Add Task      | `/add`           | Form to create a new task                 |
+| Edit Task     | `/edit/:id`      | Form to update an existing task (reused)  |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📦 How to Setup & Run
 
-### Analyzing the Bundle Size
+### 🔧 Prerequisites:
+- **Node.js** (v18+)
+- **NPM**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 📜 Backend Setup (Node.js + Express + Sqlite3)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd backend
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+node app.js
 
-### Deployment
+### Frontend Setup (React JS with React Hooks)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+cd frontend
 
-### `npm run build` fails to minify
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+
+### 🌐 Live Demo
+Backend (Render): [https://taskmanagerbackend-i81j.onrender.com](https://taskmanagerbackend-i81j.onrender.com)
+
+Frontend (Vercel): https://taskmanagerfrontend-pied.vercel.app/
+
+Screen Recording (Google Drive) : https://drive.google.com/file/d/1BNXgcFTMwNkyBzHRLqwnEf6dsnixNMT2/view?usp=sharing
+
